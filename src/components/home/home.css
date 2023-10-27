@@ -1,0 +1,13 @@
+/* :root {
+    --gradientblue: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+}
+
+.background {
+    background: var(--gradientblue);
+} */
+
+.container-body {
+    background: white;
+    height: 100vh;
+}
+
