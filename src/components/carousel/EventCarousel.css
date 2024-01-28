@@ -1,0 +1,31 @@
+/* eventcarousel.css */
+.carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .glass-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.5); /* Glass effect background color with opacity */
+    padding: 50px 180px 50px 180px;
+    /* border-radius: 10px; */
+    text-align: center;
+  }
+
+  .event-date {
+    font-size: large;
+    margin: 0;
+    font-weight: 500;
+    color: black; /* Adjust the text color */
+  }
+  

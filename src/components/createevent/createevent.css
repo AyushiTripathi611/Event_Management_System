@@ -1,0 +1,44 @@
+.event-card {
+    border-radius: 6px;
+    padding: 10px;
+    margin: 20px 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textboxes {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.a-btn {
+    margin: 10px 0px;
+}
+.textboxes-icon {
+    width: 15%;
+}
+@media (max-width:500px) {
+    .textboxes-icon {
+        width: 50%;
+    }
+}
+@media (max-width:770px) and (min-width:501px) {
+    .textboxes-icon {
+        width: 30%;
+    }
+}
+.create-event-container {
+    margin-top: 50px;
+  }
+  
+  .stepper {
+    background-color: #f8f9fa; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .step-content {
+    margin-top: 20px;
+  }
+  
+  /* Add any additional styling based on your preferences */
+  

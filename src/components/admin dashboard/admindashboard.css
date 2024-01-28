@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.backgroundwhite {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.width {
+  width: 48%;
+}
+
+.admin {
+  background-color: #00A9FF;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.event-card {
+  border-radius: 6px;
+  padding: 10px;
+  margin: 20px 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-btn {
+  background: #003459;
+  color: white;
+}
+
+/* .doughnut {
+  width: 30%;
+} */
+
+.request-numbers {
+  width: 100%;
+}
+
+.numbers-width {
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .doughnut {
+    display: none;
+    /* Hide the chart on screens smaller than 768px */
+  }
+
+  .request-numbers {
+    display: block !important;
+  }
+}
+
+
+.demoflex {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Add these styles to your CSS file */
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 16px; /* Adjust the gap as needed */
+}
+
+/* Style for each action button */
+.action-buttons button {
+  font-size: 14px; /* Adjust font size as needed */
+  padding: 8px 16px; /* Adjust padding as needed */
+  /* Add any other styling as per your design */
+}
+
+/* Style for the EventSearchBar */
+.event-search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push it to the right end of the container */
+}
+
+/* Style for the input in the search bar */
+.event-search-bar input {
+  font-size: 14px; /* Adjust font size as needed */
+  padding: 8px; /* Adjust padding as needed */
+  /* Add any other styling as per your design */
+}
